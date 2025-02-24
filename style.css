@@ -1,6 +1,7 @@
 /* Ensure Banner Fits Perfectly */
 .banner {
-    width: 100%;   /* Full width */
+    width: 100vw;    /* Full viewport width */
+    max-width: 100%; /* Prevents overflow */
     height: auto;  /* Maintain aspect ratio */
     display: block;  /* No extra space */
     max-height: 400px; /* Adjust height if needed */
